@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View, Button, TextInput, FlatList, AsyncStorage } from "react-native";
 
-export default class App extends React.Component {
+export default class Todos extends React.Component {
   constructor() {
     super();
     this.state = {
