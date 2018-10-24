@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-navigation
+
+PATH: 
+  C:\Program Files\cmder\bin;C:\Program Files\cmder\vendor\git-for-windows\cmd;C:\Program Files\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Program Files\cmder\vendor\conemu-maximus5;C:\Program Files\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Yarn\bin\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\heroku;C:\Users\Nicky\AppData\Local\Programs\Python\Python37-32\;C:\Users\Nicky\AppData\Roaming\Python\Python37\Scripts;C:\Ruby24-x64\bin;C:\Users\Nicky\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs;C:\Users\Nicky\AppData\Local\atom\bin;C:\Users\Nicky\AppData\Local\Yarn\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Nicky\AppData\Local\Microsoft\WindowsApps;C:\Users\Nicky\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\Nicky\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\SQLiteStudio\sqlite;C:\Program Files\cmder\vendor\git-for-windows\mingw64;C:\Program Files\cmder\vendor\git-for-windows\usr\bin;C:\Program Files\cmder
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  10.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Nicky\Desktop\Coding\Side Projects\react-native-todo\node_modules\deep-extend\lib'
+
+npm manifest: 
+  {
+    "name": "empty-project-template",
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^30.0.1",
+      "react": "16.3.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
