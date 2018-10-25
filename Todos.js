@@ -49,7 +49,8 @@ export default class Todos extends React.Component {
     if (todos !== null) {
       todos
         .then(res => {
-          console.log(res);
+          const parsedTodos = JSON.parse(res);
+          this.setState({ todos: parsedTodos });
         })
         .catch(err => {
           console.log(err, "error on retrieval of todos");

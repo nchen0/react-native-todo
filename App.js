@@ -1,11 +1,13 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, Button, View } from "react-native";
 import { createStackNavigator } from "react-navigation";
+import Todos from "./Todos";
 
-const Home = () => {
+const Home = props => {
   return (
     <View style={styles.container}>
       <Text>HOME</Text>
+      <Button title="Todos" onPress={() => props.navigation.navigate("Todos")} />
     </View>
   );
 };
@@ -23,7 +25,8 @@ const styles = StyleSheet.create({
 const { container, textFont } = styles;
 
 const Routes = createStackNavigator({
-  Home: { screen: Home }
+  Home: { screen: Home },
+  Todos: { screen: Todos }
 });
 
-export default Home;
+export default Routes;
